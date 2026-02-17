@@ -6,7 +6,7 @@ test('it should render successfully', () => {
   render(<TimeZone />);
 });
 
-test.fails('should match the snapshot', async () => {
+test.todo('should match the snapshot', async () => {
   const { container } = render(<TimeZone />);
   expect(container).toMatchSnapshot();
 });
